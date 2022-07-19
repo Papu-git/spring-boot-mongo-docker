@@ -23,7 +23,7 @@ spec:
         app: springboot
     spec:
       containers:
-      - image: chandan077/spring-boot-mongo:1
+      - image: chandan077/spring-boot-mongo:${buildNumber}
         name: springboot
         ports:
         - containerPort: 8080  
